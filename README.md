@@ -16,11 +16,13 @@ from the right at random intervals and speeds
 This project will combine the Genetic Algo(GA) with a neural network(NN)
 
 Here we will only outline the input and output layers of NN:
+
 1. The input layer will have 4 nodes
   a. Obstacle's direction vector from player (X)
   b. Obstacle's direction vector from player (Y)
   c. Obstacles's relative speed from player (X)
   d. Obstacles's relative speed from player (Y)
+	
 2.  the output layer will have 5 nodes
   a. Player Jumps
   b. Player Jumps while moving forward for t seconds
