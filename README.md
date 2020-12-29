@@ -39,4 +39,5 @@ Overall, the project can be summarized into 8 steps
 8. Go to step 5 and loop until the stopping criteria isn't satisfied anymore.
 
 Below is a flowchart that can be used to help illustrate this process:
+
 ![alt text](https://i1.wp.com/theailearner.com/wp-content/uploads/2018/11/Genetic-Algorithm-Steps.png?w=516&ssl=1)
