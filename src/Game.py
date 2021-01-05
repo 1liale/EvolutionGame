@@ -1,8 +1,7 @@
 import pygame
 import random
 from pygame.locals import *
-import GeneticAlgo
-import NeuralNetwork
+from src import GeneticAlgo, NeuralNetwork
 
 WIDTH = 500
 HEIGHT = 500
@@ -284,7 +283,7 @@ def run_game():
 
             for i in range(POPULATION - 1):
                 new_player = Player(start_pos[0], start_pos[1], i, GeneticAlgo.mutateCoefs(winner.coefs),
-                                      GeneticAlgo.mutateIntercepts(winner.intercepts))
+                                    GeneticAlgo.mutateIntercepts(winner.intercepts))
                 players.append(new_player)
                 all_sprites.add(new_player)
 
